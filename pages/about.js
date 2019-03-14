@@ -1,5 +1,11 @@
-export default () => (
+import React from 'react';
+import Header from '../shared/header';
+
+const About = () => (
   <div>
+    <Header />
     <p>This is the about page</p>
   </div>
 );
+
+export default About;
