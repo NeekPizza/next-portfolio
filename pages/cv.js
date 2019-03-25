@@ -1,10 +1,12 @@
 import React from 'react';
-import Header from '../shared/header';
+import BaseLayout from '../components/layouts/BaseLayout';
+
 
 const CV = () => (
   <div>
-    <Header />
-    <p>CV</p>
+    <BaseLayout>
+      <p>CV</p>
+    </BaseLayout>
   </div>
 )
 

@@ -1,10 +1,12 @@
 import React from 'react';
-import Header from '../shared/header';
+import BaseLayout from '../components/layouts/BaseLayout';
+
 
 const Portfolios = () => (
   <div>
-    <Header />  
-    <p>Portfolio</p>
+    <BaseLayout>
+      <p>Portfolio</p>
+    </BaseLayout>
   </div>
 )
 
